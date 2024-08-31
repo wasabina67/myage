@@ -1,11 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { calculateAge } from './utils';
 
 function App() {
+  const birthDate = "1993-08-31";
+  const age = calculateAge(birthDate);
+
   return (
     <div className="App">
-      <h1>myage</h1>
+      <h1>{ age }</h1>
     </div>
   );
 }
