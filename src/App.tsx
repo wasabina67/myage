@@ -2,7 +2,7 @@ import './App.css';
 import { calculateAge } from './utils';
 
 function App() {
-  const birthDate = "1993-08-31";
+  const birthDate = "1993-11-10";
   const age = calculateAge(birthDate);
 
   return (
